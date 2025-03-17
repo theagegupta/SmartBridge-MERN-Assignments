@@ -1,0 +1,80 @@
+/* Question 2 styles */
+
+figure{
+    justify-self:center;
+    /* text-align: center; */
+}
+
+figcaption
+{
+    text-align: center;
+    color: red;
+}
+
+
+/* Question 3 styles */
+
+p:first-of-type{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height:1.5;
+    text-align: right;
+}
+
+p:nth-of-type(2)
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 3;
+    text-align: justify;
+}
+
+/* Question 4 styles */
+
+.my-button
+{
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: rgb(59, 59, 185);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+
+    &:hover{
+        transform:scale(1.1);
+        box-shadow: 5px 5px 5px black;
+    }
+}
+
+
+/* Question 5 */
+
+table{
+    width: 90%;
+    /* border: 2px solid; */
+    border-collapse: collapse;
+    justify-self: center;
+}
+
+td, th {
+    font-size: large;
+    border-bottom: 1.5px solid;
+    text-align:center;
+    padding: 5px;
+    
+}
+
+thead{
+    background-color: rgb(168, 165, 165);
+}
+
+/* tr:hover {background-color: coral;} */
+tr:nth-child(even) {background-color: #e2d9d9;}
+
+/* tr td:first-of-type
+{
+    background-color: rgb(233, 226, 226);
+
+} */
+
+div{
+    overflow-x: auto;
+}
