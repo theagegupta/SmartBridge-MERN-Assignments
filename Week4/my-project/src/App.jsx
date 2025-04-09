@@ -3,6 +3,7 @@ import './App.css'
 import LandingPage from './pages/LandingPage'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ProductDetails from './pages/ProductDetails';
+import AddUserForm from './pages/AddUserForm';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
     <Routes>
       <Route path="/" element={<LandingPage products={products} />} />
       <Route path="/product/:id" element={<ProductDetails/>} />
+      <Route path='/addUser' element={<AddUserForm></AddUserForm>}></Route>
     </Routes>
   </Router>
   );
